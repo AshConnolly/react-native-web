@@ -1,0 +1,21 @@
+// {
+//     "expo": {
+//       "sdkVersion": "25.0.0"
+//     }
+//   }
+
+ {
+   "expo": {
+    "name": "Your App Name",
+    "icon": "./src/assets/react-logo-square.png",
+    "version": "1.0.0",
+    "slug": "your-app-slug",
+    "sdkVersion": "25.0.0",
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourappname"
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname"
+    }
+   }
+ }
