@@ -1,21 +1,37 @@
-// {
-//     "expo": {
-//       "sdkVersion": "25.0.0"
-//     }
-//   }
+// // {
+// //     "expo": {
+// //       "sdkVersion": "25.0.0"
+// //     }
+// //   }
 
- {
+//  {
+//    "expo": {
+//     "name": "react native web proj",
+//     "icon": "./src/icon.png",
+//     "version": "1.0.0",
+//     "slug": "your-app-slug",
+//     "sdkVersion": "25.0.0",
+//     "ios": {
+//       "bundleIdentifier": "react-native-web-proj"
+//     },
+//     "android": {
+//       "package": "react-native-web-proj"
+//     }
+//    }
+//  }
+
+  {
    "expo": {
-    "name": "Your App Name",
-    "icon": "./src/assets/react-logo-square.png",
+    "name": "React Native Web Proj",
+    "icon": "./src/icon.png",
     "version": "1.0.0",
     "slug": "your-app-slug",
     "sdkVersion": "25.0.0",
     "ios": {
-      "bundleIdentifier": "com.yourcompany.yourappname"
+      "bundleIdentifier": "com.yourcompany.reactnativewebproj"
     },
     "android": {
-      "package": "com.yourcompany.yourappname"
+      "package": "com.yourcompany.reactnativewebproj"
     }
    }
  }

@@ -21,40 +21,35 @@
 // export default App;
 
 
-import React, { Component } from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import React, { Component } from "react";
+import { View, Text, StyleSheet, Image } from "react-native";
 export default class App extends Component {
-  render() {
-    return (
-      <View style={styles.app}>
-        <View style={styles.appHeader}>
-          <Text style={styles.appTitle}>Welcome to React ⚛️</Text>
-        </View>
-        <Text style={styles.appIntro}>
-          To get started, edit src/App.js and save to reload.
-        </Text>
-      </View>
-    )
-  }
+    render() {
+        return (
+            <View style={styles.app}>
+                <View style={styles.appHeader}>
+                    <Image style={{height: 80, resizeMode: 'contain'}} source={require('./logo.svg')} />
+                    <Text style={styles.appTitle}>Welcome to React️</Text>
+                </View>
+                <Text style={styles.appIntro}>To get started, edit src/App.js and save to reload.</Text>
+            </View>
+        );
+    }
 }
 const styles = StyleSheet.create({
   app: {
-    flex: 1
+    textAlign: 'center',
   },
   appHeader: {
-    flex: 1,
-    backgroundColor: '#222',
-    padding: 20,
-    justifyContent: 'center',
-    alignItems: 'center'
+  backgroundColor: '#222',
+  minHeight: '150px',
+  padding: '20px',
+  color: 'white',
   },
   appTitle: {
     fontSize: 16,
-    color: 'white'
   },
   appIntro: {
-    flex: 2,
     fontSize: 30,
-    textAlign: 'center'
   }
 })
